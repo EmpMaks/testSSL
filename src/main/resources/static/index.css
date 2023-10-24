@@ -1,0 +1,12 @@
+.form-container {
+    display: flex; /* make the div a flex container */
+    justify-content: center; /* center the items horizontally */
+    align-items: center; /* center the items vertically */
+    height: 100vh; /* make the div take the full height of the viewport */
+}
+
+form {
+    display: flex; /* make the form a flex item */
+    flex-direction: column; /* make the form elements stack in a column */
+    align-items: center; /* center the form elements horizontally */
+}
